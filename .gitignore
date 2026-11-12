@@ -1,0 +1,25 @@
+# 构建产物
+build/
+build-desktop/
+build-desktop-final/
+build-desktop-qt*/
+frontend/dist/
+
+# 依赖
+frontend/node_modules/
+
+# 运行时数据（数据库、导入的资料副本、向量索引）
+data/localrag.db
+data/imported/
+data/inmemory.index
+
+# 本地配置（含个人 API 设置）
+config/localrag.json
+
+# IDE / 编辑器
+.vscode/
+.superpowers/
+
+# 系统文件
+Thumbs.db
+.DS_Store

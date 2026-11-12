@@ -1,0 +1,17 @@
+{
+  "database": {
+    "type": "sqlite",
+    "sqlite_path": "data/localrag.db"
+  },
+  "llm": {
+    "base_url": "https://api.deepseek.com",
+    "api_key_env": "LOCALRAG_API_KEY",
+    "chat_model": "deepseek-chat",
+    "embedding_model": "text-embedding-v1"
+  },
+  "retrieval": {
+    "top_k": 5,
+    "chunk_size": 800,
+    "chunk_overlap": 120
+  }
+}
